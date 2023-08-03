@@ -1,0 +1,14 @@
+@import '/styles/config';
+
+.Button {
+  background-color: white;
+  color: brown;
+  border: 1px solid brown;
+  width: 200px;
+}
+
+@include on(mobile) {
+  .Button {
+    width: 100px;
+  }
+}
