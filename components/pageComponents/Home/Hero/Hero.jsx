@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className='hero'>
       <H1>Hero</H1>
-      <Button onClick={() => console.log('asdasd')}>Contact Us</Button>
+      <Button>Contact Us</Button>
     </div>
   );
 };

@@ -7,16 +7,19 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier . --write --config ./.prettierrc"
+    "format": "prettier . --write --config ./.prettierrc",
+    "prepare": "husky install"
   },
   "dependencies": {
     "eslint": "8.46.0",
-    "eslint-config-next": "13.4.12",
+    "eslint-config-next": "^13.4.19",
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.0",
     "prettier": "^3.0.1",
     "sass": "^1.64.2"
   }
